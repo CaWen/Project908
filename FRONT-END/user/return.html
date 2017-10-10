@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>return</title>
+
+  </head>
+
+  <body>
+
+    register succeed!<br/>
+    go back to login page in 5 sec<br/>
+    click to <a href="http://127.0.0.1:8080/login.html">login page</a>
+    <script type="text/javascript">
+      setTimeout("ren()",5000);
+      function ren()
+        {
+          window.location="http://127.0.0.1:8080/login.html";
+        }
+    </script>
+
+  </body>
+</html>
