@@ -18,7 +18,7 @@
         <servlet-name>Index</servlet-name>
         <url-pattern>/index/index</url-pattern>
     </servlet-mapping>
-    
+            
     <servlet>
         <servlet-name>Login</servlet-name>
         <servlet-class>indi.eshttccty.project908.user.Login</servlet-class>
