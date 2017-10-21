@@ -85,7 +85,7 @@
                 }
                 return true ;
             }
-			if ( !/^{11,11}$/g.test ( mobile ) )
+			if ( !/^[0-9.,]{11,11}$/g.test ( mobile ) )
                 {
                     alert ( "手机号填写有误！" ) ;
                     return false ;
