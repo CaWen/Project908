@@ -22,15 +22,15 @@
 
     <div>
         <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="Tip is missing." />
-    <div>
+    </div>
     <div class="container">
 
       <form class="form-login" action="/user/logincheck" method="POST">
         <h2 class="form-login-heading">请登录</h2>
         <label for="inputUsername" class="sr-only">用户名</label>
-        <input type="username" id="username" class="form-control" placeholder="Username" required autofocus>
+        <input name="username" type="username" id="username" class="form-control" placeholder="Username" required autofocus>
         <label for="inputPassword" class="sr-only">密码</label>
-        <input type="password" id="password" class="form-control" placeholder="Password" required>
+        <input name="password" type="password" id="password" class="form-control" placeholder="Password" required>
         <div class="checkbox">
           <label>
             <input type="checkbox" value="remember-me"> 记住账号
@@ -67,7 +67,7 @@
                 }
                 return true ;
             }
-        </script>
+    </script>
 
   </body>
 </html>
